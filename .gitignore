@@ -1,0 +1,14 @@
+# Compiled files
+**/*.tfplan
+*.tfstate
+*.tfstate.backup
+**/*.tfstate
+**/*.tfstate.backup
+
+# Module directory
+.terraform/
+
+# Ansible
+*.retry
+.venv-ansible/
+ansible-azure.cache
